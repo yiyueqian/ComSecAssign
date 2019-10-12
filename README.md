@@ -7,10 +7,10 @@ The project is to develop a type of malware which can halt the computer system a
     
 
 ## Files
-Script.cpp --> program C++ script
-Script.o  --> object file of the program
-PE-Import.exe --> the portable execuitable file
-Result package --> reserve the results of import tables    
+Script.cpp --> program C++ script  
+Script.o  --> object file of the program  
+PE-Import.exe --> the portable execuitable file  
+Result package --> reserve the results of import tables        
 
 ## Write virus scripts and check the program  
 
@@ -34,5 +34,5 @@ command: upx -d D:\CProgrammingCoursework\ComSeqAss\PE-import.exe
 ## Encrypt and detect the program  
 
 Finally, I use the encryption tool **THemida** to encrypt the PE-import.exe and then use the virustotal tool to detect the encrypted program. Here is the result of detection:  
-![image text](results/Themida encryption.PNG)  
+![image text](results/Themida encryption.PNG)
 ![image text](results/virus.PNG)
